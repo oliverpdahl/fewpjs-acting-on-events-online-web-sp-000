@@ -2,11 +2,11 @@
 let dodger = document.getElementById("dodger");
 
 function moveDodgerDirection(direction) {
-  let leftNumbers = dodger.style.left.replace("px", "");
-  let left = parseInt(leftNumbers, 10);
+  let Numbers = dodger.style.direction.replace("px", "");
+  let directionInt = parseInt(leftNumbers, 10);
 
-  if (left > 0) {
-    dodger.style.left = `${left - 1}px`;
+  if (directionInt > 0) {
+    dodger.style.direction = `${directionInt - 1}px`;
   }
 }
 
