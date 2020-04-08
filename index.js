@@ -11,7 +11,7 @@ function moveDodgerDirection(direction) {
 }
 
 function moveDodgerLeft(){
-  moveDodgerDirection(left);
+  moveDodgerDirection(left)
 }
 
 document.addEventListener("keydown", function(e) {
