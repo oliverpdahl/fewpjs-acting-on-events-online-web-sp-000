@@ -19,15 +19,6 @@ function moveDodgerRight() {
   }
 }
 
-function moveDodgerDirection(inputDirection) {
-  let directionNumbers = dodger.style.inputDirection.replace("px", "");
-  let direction = parseInt(directionNumbers, 10);
-
-  if (direction > 0) {
-    dodger.style.inputDirection = `${direction - 1}px`;
-  }
-}
-
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
