@@ -1,7 +1,7 @@
 // Your code here
 let dodger = document.getElementById("dodger");
 
-function moveDodgerLeft() {
+function moveDodgerDirection(direction) {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
 
